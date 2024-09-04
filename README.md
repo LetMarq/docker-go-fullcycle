@@ -1,7 +1,3 @@
-Vamos criar um README adequado para o seu GitHub, com todos os detalhes necessários e formatado corretamente:
-
----
-
 # 🐳 Desafio Go - Curso Full Cycle
 
 ## Objetivo
