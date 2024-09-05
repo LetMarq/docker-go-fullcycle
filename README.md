@@ -19,7 +19,7 @@ docker build -t fullcycle-docker-go .
 Após a construção, a imagem pode ser executada com o comando:
 
 ```sh
-docker run - t fullcycle-docker-go
+docker run -t fullcycle-docker-go
 ```
 
 ### Utilizando a Imagem Hospedada
