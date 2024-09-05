@@ -1,7 +1,7 @@
 FROM golang:alpine as builder
 WORKDIR /app
 COPY . .
-RUN go build -o /main main.go
+RUN go build -ldflags="-w -s" -o /main main.go
 
 FROM scratch
 COPY --from=builder /main /main
