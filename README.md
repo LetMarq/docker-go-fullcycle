@@ -19,7 +19,7 @@ docker build -t fullcycle-docker-go .
 Após a construção, a imagem pode ser executada com o comando:
 
 ```sh
-docker run - t fullcycle-docker-go
+docker run -t fullcycle-docker-go
 ```
 
 ### Utilizando a Imagem Hospedada
@@ -31,3 +31,8 @@ docker run leticiamarq/fullcycle-docker-go
 ```
 
 ## Resultado
+![image](https://github.com/user-attachments/assets/c3e5f214-818c-48e8-ac56-cc5c42ee7beb)
+
+![image](https://github.com/user-attachments/assets/cf9050cf-796e-47f0-8034-05c97a2f6067)
+
+A imagem final tem o tamanho de 1.24MB e, quando executada, exibe a mensagem "Full Cycle Rocks!!" no console.
